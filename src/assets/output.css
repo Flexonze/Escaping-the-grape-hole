@@ -811,8 +811,8 @@ h1, h2 {
 }
 
 .book-container .book {
-  width: 350px;
-  height: 500px;
+  width: 400px;
+  height: 572px;
   position: relative;
   transform-style: preserve-3d;
   transform: rotateY(-35deg);
@@ -828,8 +828,8 @@ h1, h2 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 350px;
-  height: 500px;
+  width: 400px;
+  height: 572px;
   transform: translateZ(45px);
   border-radius: 0 2px 2px 0;
   box-shadow: 5px 5px 20px rgba(49,46,21,1);
@@ -840,10 +840,11 @@ h1, h2 {
   position: absolute;
   content: ' ';
   left: 125px;
-  top: 3px;
-  width: 84px;
-  height: 490px;
-  transform: translateX(172px) rotateY(90deg);
+  top: 7px;
+  width: 75px;
+  /*150*/
+  height: 560px;
+  transform: translateX(225px) rotateY(90deg);
   background: linear-gradient(90deg, 
         #fff 0%,
         #f9f9f9 5%,
@@ -874,8 +875,8 @@ h1, h2 {
   top: 0;
   left: 0;
   content: ' ';
-  width: 350px;
-  height: 500px;
+  width: 400px;
+  height: 572px;
   transform: translateZ(-25px);
   background-color: #01060f;
   border-radius: 0 2px 2px 0;
