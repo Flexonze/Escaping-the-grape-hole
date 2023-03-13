@@ -16,8 +16,8 @@ const container = document.getElementById("recommendations-container");
 
 randomRecommendations.forEach(recommendation => {
   const div = document.createElement("div");
-  div.setAttribute("class", "shadow text-white p-32 recommendation-card text-xl px-6 max-w-3xl mx-auto rounded-xl drop-shadow-xl flex space-x-6 mb-6 transition hover:scale-105");
-  div.innerText = recommendation.recommentation + " - " + recommendation.from;
+  div.setAttribute("class", "shadow text-white px-32 py-8 recommendation-card text-xl px-6 max-w-3xl mx-auto rounded-xl drop-shadow-xl flex flex-col space-x-6 mb-6 transition hover:scale-105");
+  div.innerHTML = "<i>" + recommendation.recommentation + "</i><b class='text-right pt-4'>- " + recommendation.from + "</b>";
   container.appendChild(div);
 });
 

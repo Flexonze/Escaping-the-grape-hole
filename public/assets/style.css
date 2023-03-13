@@ -2,15 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+    background: #fc6d3975;
+    color: #fff;
+}
+
 body {
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(87,92,51,1) 0%, rgba(14,15,8,1) 100%);
     padding-top: 120px;
 }
 
+img {
+    user-select: none;
+}
+
 h1, h2 {
     font-family: 'Saira', sans-serif;
     text-shadow: 1px 1px 3px #000;
+}
+
+.best-seller-tag {
+    width: 145px;
+    position: absolute;
+    margin: -120px 0 0 30px;
+    filter: drop-shadow(4px 4px 4px #000);
+    transition: transform 1s ease;
 }
 
 .section2 {
@@ -24,7 +41,7 @@ h1, h2 {
 }
 
 .bg-brown {
-    background-color: #925527;
+    background-color: #fc6d39;
     transition: ease 0.3s;
 }
 .bg-brown:hover {
